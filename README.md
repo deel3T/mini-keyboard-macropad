@@ -180,4 +180,7 @@ Code comments are mostly in Turkish.
 
 ## License
 
-[MIT](LICENSE)
+- **Software** (`gui/`, `arduino/`, configuration files): [MIT](LICENSE).
+- **Case design, photos and wiring diagrams** (`hardware/`, `docs/images/`): [CC BY-NC 4.0](hardware/LICENSE). Free to use, modify and share with credit; **commercial use is not allowed**, including selling printed cases or kits.
+- The desktop app uses **PyQt6**, which is licensed under GPL v3. Using and sharing the source as it is here is fine; if you distribute a packaged build (for example an `.exe`), that build has to follow the GPL v3.
+- "Arduino" and "Cherry MX" are trademarks of their owners and are used here only to describe compatibility.

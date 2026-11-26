@@ -180,4 +180,7 @@ Bir tuş basışının maliyeti (koddan ve önceki ölçümlerden):
 
 ## Lisans
 
-[MIT](LICENSE)
+- **Yazılım** (`gui/`, `arduino/`, ayar dosyaları): [MIT](LICENSE).
+- **Kasa tasarımı, fotoğraflar ve bağlantı şemaları** (`hardware/`, `docs/images/`): [CC BY-NC 4.0](hardware/LICENSE). Ad verilerek serbestçe kullanılabilir, değiştirilebilir ve paylaşılabilir; **ticari kullanım yasaktır**, basılmış kasa ya da kit satmak dahil.
+- Masaüstü programı GPL v3 lisanslı **PyQt6** kullanır. Kaynak kodu buradaki gibi kullanmak ve paylaşmak serbesttir; paketlenmiş bir sürüm (örneğin `.exe`) dağıtılırsa o paket GPL v3'e uymak zorundadır.
+- "Arduino" ve "Cherry MX" sahiplerinin ticari markalarıdır; burada yalnızca uyumluluğu belirtmek için geçer.
