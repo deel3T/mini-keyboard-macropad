@@ -33,6 +33,19 @@ makro klavye için gömülü yazılım ve Windows masaüstü yapılandırma prog
 Medya özellikleri için ek program gerekmez: Windows'un kendi medya kontrolünü (SMTC) Windows'la gelen
 PowerShell üzerinden kullanır. Yalnızca firmware yükleme düğmesi Arduino IDE ya da `arduino-cli` ister.
 
+## Ekran görüntüleri
+
+<table>
+  <tr>
+    <td><img src="docs/images/screenshots/tr/media.png" alt="Medya tuşu"></td>
+    <td><img src="docs/images/screenshots/tr/launcher.png" alt="Program açma"></td>
+  </tr>
+  <tr>
+    <td><img src="docs/images/screenshots/tr/shortcut.png" alt="Klavye kısayolu"></td>
+    <td><img src="docs/images/screenshots/tr/settings.png" alt="Ayarlar"></td>
+  </tr>
+</table>
+
 ## Donanım
 
 Klavye iki tür Arduino kartla çalışır. Kablolama aynıdır; fark, kartın bilgisayarla nasıl konuştuğundadır.

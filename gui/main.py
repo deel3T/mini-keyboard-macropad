@@ -1194,7 +1194,7 @@ class KeyConfigWidget(QWidget):
             "Kısayol Tuşu",
             "Metin Makrosu",
             "Medya Kontrolü",
-            "Mod Değiştirici (Sonraki Mod)",
+            "Mod Değiştir",
             "🚀 Program / Oyun Çalıştır"
         ])
         self.combo_type.currentIndexChanged.connect(self.on_type_changed)
@@ -1555,7 +1555,7 @@ class KeyConfigWidget(QWidget):
             self.combo_type.setItemText(1, "Keyboard Shortcut")
             self.combo_type.setItemText(2, "Text Macro")
             self.combo_type.setItemText(3, "Media Control")
-            self.combo_type.setItemText(4, "Mode Switcher (Next Mode)")
+            self.combo_type.setItemText(4, "Switch Mode")
             self.combo_type.setItemText(5, "🚀 Launch Program / Game")
             
             self.shortcut_box.setTitle("Shortcut Settings")
@@ -1592,7 +1592,7 @@ class KeyConfigWidget(QWidget):
             self.combo_type.setItemText(1, "Kısayol Tuşu")
             self.combo_type.setItemText(2, "Metin Makrosu")
             self.combo_type.setItemText(3, "Medya Kontrolü")
-            self.combo_type.setItemText(4, "Mod Değiştirici (Sonraki Mod)")
+            self.combo_type.setItemText(4, "Mod Değiştir")
             self.combo_type.setItemText(5, "🚀 Program / Oyun Çalıştır")
             
             self.shortcut_box.setTitle("Kısayol Ayarları")
@@ -2381,7 +2381,7 @@ class MainWindow(QMainWindow):
 
     def load_local_user_config(self):
         self.default_com_port = ""
-        self.language = "TR"
+        self.language = "EN"
         self.mode_count = 3
         self.mode_colors = ["#D98A54", "#FF6B6B", "#8CFFC7", "#4FB8E8", "#B57BF2"]
         self.mode_names = ["", "", "", "", ""]
@@ -2403,7 +2403,7 @@ class MainWindow(QMainWindow):
                         self.active_mode = 0
                         self.mode_count = max(1, min(5, data.get("mode_count", 3)))
                         self.default_com_port = data.get("default_com_port", "")
-                        self.language = data.get("language", "TR")
+                        self.language = data.get("language", "EN")
                         self.tray_close = bool(data.get("tray_close", True))
                         self.popup_notify = bool(data.get("popup_notify", True))
                         self.music_player = str(data.get("music_player", "") or "")
@@ -2511,7 +2511,8 @@ class MainWindow(QMainWindow):
 
         self.combo_ports = QComboBox()
         self.combo_ports.setObjectName("portCombo")
-        self.combo_ports.setMinimumWidth(70)
+        # "Otomatik" (TR) tasmasin diye; eskiden 70 px'te "Otomati" diye kesiliyordu.
+        self.combo_ports.setMinimumWidth(100)
         port_pill_layout.addWidget(self.combo_ports)
 
         top_layout.addWidget(self.port_pill)
@@ -2596,6 +2597,8 @@ class MainWindow(QMainWindow):
         self.right_group.body_layout.addLayout(right_layout)
 
         self.tabs = QTabWidget()
+        # Iki sekme her zaman sigar; kaydirma oku dar pencerede bosuna cikiyordu.
+        self.tabs.setUsesScrollButtons(False)
         self.tab_single = KeyConfigWidget("Tek Tıklama")
         self.tab_long = KeyConfigWidget("Uzun Basma")
 
@@ -3187,6 +3190,8 @@ class MainWindow(QMainWindow):
             self.card_mode_count.setTitle(t["mode_count_group"])
             self.card_colors.setTitle(t["mode_colors_group"])
             self.card_port.setTitle(t["port_group"])
+            self.combo_default_port.setItemText(0, t["auto_detect"])
+            self.seg_lang.set_value(self.language, emit=False)
             self.lbl_board_hint.setText(t["board_hint_" + getattr(self, "board", "promicro")])
             self.card_gen.setTitle(t["gen_group"])
             self.lbl_autostart.setText(t["autostart"])

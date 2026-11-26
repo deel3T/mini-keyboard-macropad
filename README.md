@@ -32,6 +32,19 @@ Arduino Pro Micro / Micro (ATmega32U4) or an Arduino Nano (ATmega328P) — see [
 No extra software is needed for the media features: they use Windows' own media controls
 (SMTC) through the built-in Windows PowerShell. Only the firmware upload button needs the Arduino IDE or `arduino-cli`.
 
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="docs/images/screenshots/en/media.png" alt="Media key"></td>
+    <td><img src="docs/images/screenshots/en/launcher.png" alt="Program launcher"></td>
+  </tr>
+  <tr>
+    <td><img src="docs/images/screenshots/en/shortcut.png" alt="Keyboard shortcut"></td>
+    <td><img src="docs/images/screenshots/en/settings.png" alt="Settings"></td>
+  </tr>
+</table>
+
 ## Hardware
 
 The pad works with two kinds of Arduino boards. The wiring is identical; what differs is how the board talks to the PC.

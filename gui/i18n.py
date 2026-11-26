@@ -6,7 +6,7 @@ secilir. Dil, ayar yuklenince ve kullanici degistirince set_language() ile
 guncellenir.
 """
 
-_state = {"lang": "TR"}
+_state = {"lang": "EN"}
 
 
 def set_language(code):
