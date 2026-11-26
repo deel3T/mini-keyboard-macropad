@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.spec
+
+# Kisisel ayar ve calisma dosyalari / personal settings and runtime files
+user_config.json
+user_config.json.tmp
+*.tmp
+*.log
+crash_log.txt
+
+# Editor / araclar
+.vscode/
+.idea/
+.claude/
+graphify-out/
+
+# Gizli bilgiler / secrets
+.env
+.env.*
+*.pem
+*.key

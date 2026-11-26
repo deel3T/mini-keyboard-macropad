@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" font-family="Segoe UI, Arial, sans-serif">
+<rect width="1000" height="700" fill="#ffffff"/>
+<text x="30" y="40" font-size="24" font-weight="700" fill="#222">Bağlantı şeması — Arduino Nano (ATmega328P)</text>
+<text x="30" y="66" font-size="14" fill="#555">Her tuşun bir bacağı kendi pinine, diğeri ortak GND hattına. Direnç gerekmez (INPUT_PULLUP).</text>
+<rect x="90" y="130.0" width="150" height="460" rx="8" fill="#1f5fa8" stroke="#123c6b" stroke-width="2"/>
+<rect x="143.0" y="116.0" width="44" height="22" rx="3" fill="#b9bec4" stroke="#7d838a"/>
+<text x="165.0" y="132.0" font-size="11" text-anchor="middle" fill="#333">USB</text>
+<text x="165.0" y="360.0" font-size="13" text-anchor="middle" fill="#fff" transform="rotate(-90 165.0 360.0)">Arduino Nano (ATmega328P)</text>
+<circle cx="104" cy="160.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="164.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">D13</text>
+<circle cx="104" cy="188.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="192.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">3V3</text>
+<circle cx="104" cy="216.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="220.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">REF</text>
+<circle cx="104" cy="244.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="248.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">A0</text>
+<circle cx="104" cy="272.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="276.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">A1</text>
+<circle cx="104" cy="300.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="304.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">A2</text>
+<circle cx="104" cy="328.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="332.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">A3</text>
+<circle cx="104" cy="356.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="360.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">A4</text>
+<circle cx="104" cy="384.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="388.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">A5</text>
+<circle cx="104" cy="412.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="416.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">A6</text>
+<circle cx="104" cy="440.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="444.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">A7</text>
+<circle cx="104" cy="468.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="472.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">5V</text>
+<circle cx="104" cy="496.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="500.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">RST</text>
+<circle cx="104" cy="524.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="528.0" font-size="11" text-anchor="start" fill="#fff" font-weight="700">GND</text>
+<circle cx="104" cy="552.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="116" y="556.0" font-size="11" text-anchor="start" fill="#b8c7da" font-weight="400">VIN</text>
+<circle cx="226" cy="160.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="164.0" font-size="11" text-anchor="end" fill="#b8c7da" font-weight="400">D12</text>
+<circle cx="226" cy="188.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="192.0" font-size="11" text-anchor="end" fill="#b8c7da" font-weight="400">D11</text>
+<circle cx="226" cy="216.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="220.0" font-size="11" text-anchor="end" fill="#fff" font-weight="700">D10</text>
+<circle cx="226" cy="244.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="248.0" font-size="11" text-anchor="end" fill="#fff" font-weight="700">D9</text>
+<circle cx="226" cy="272.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="276.0" font-size="11" text-anchor="end" fill="#fff" font-weight="700">D8</text>
+<circle cx="226" cy="300.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="304.0" font-size="11" text-anchor="end" fill="#fff" font-weight="700">D7</text>
+<circle cx="226" cy="328.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="332.0" font-size="11" text-anchor="end" fill="#fff" font-weight="700">D6</text>
+<circle cx="226" cy="356.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="360.0" font-size="11" text-anchor="end" fill="#fff" font-weight="700">D5</text>
+<circle cx="226" cy="384.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="388.0" font-size="11" text-anchor="end" fill="#fff" font-weight="700">D4</text>
+<circle cx="226" cy="412.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="416.0" font-size="11" text-anchor="end" fill="#fff" font-weight="700">D3</text>
+<circle cx="226" cy="440.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="444.0" font-size="11" text-anchor="end" fill="#fff" font-weight="700">D2</text>
+<circle cx="226" cy="468.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="472.0" font-size="11" text-anchor="end" fill="#fff" font-weight="700">GND</text>
+<circle cx="226" cy="496.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="500.0" font-size="11" text-anchor="end" fill="#b8c7da" font-weight="400">RST</text>
+<circle cx="226" cy="524.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="528.0" font-size="11" text-anchor="end" fill="#b8c7da" font-weight="400">RX0</text>
+<circle cx="226" cy="552.0" r="6" fill="#e8c55a" stroke="#8a6d1a"/>
+<text x="214" y="556.0" font-size="11" text-anchor="end" fill="#b8c7da" font-weight="400">TX1</text>
+<rect x="560" y="150" width="96" height="96" rx="10" fill="#f4f4f4" stroke="#999"/>
+<text x="594" y="178" font-size="20" font-weight="700" fill="#333">7</text>
+<text x="648" y="177" font-size="12" text-anchor="end" fill="#d4a017" font-weight="700">D10</text>
+<circle cx="578" cy="224" r="5" fill="#d4a017"/>
+<circle cx="632" cy="224" r="5" fill="#222"/>
+<rect x="680" y="150" width="96" height="96" rx="10" fill="#f4f4f4" stroke="#999"/>
+<text x="714" y="178" font-size="20" font-weight="700" fill="#333">8</text>
+<text x="768" y="177" font-size="12" text-anchor="end" fill="#f032e6" font-weight="700">D2</text>
+<circle cx="698" cy="224" r="5" fill="#f032e6"/>
+<circle cx="752" cy="224" r="5" fill="#222"/>
+<rect x="800" y="150" width="96" height="96" rx="10" fill="#f4f4f4" stroke="#999"/>
+<text x="834" y="178" font-size="20" font-weight="700" fill="#333">9</text>
+<text x="888" y="177" font-size="12" text-anchor="end" fill="#8b5a2b" font-weight="700">D3</text>
+<circle cx="818" cy="224" r="5" fill="#8b5a2b"/>
+<circle cx="872" cy="224" r="5" fill="#222"/>
+<rect x="560" y="270" width="96" height="96" rx="10" fill="#f4f4f4" stroke="#999"/>
+<text x="594" y="298" font-size="20" font-weight="700" fill="#333">4</text>
+<text x="648" y="297" font-size="12" text-anchor="end" fill="#f58231" font-weight="700">D4</text>
+<circle cx="578" cy="344" r="5" fill="#f58231"/>
+<circle cx="632" cy="344" r="5" fill="#222"/>
+<rect x="680" y="270" width="96" height="96" rx="10" fill="#f4f4f4" stroke="#999"/>
+<text x="714" y="298" font-size="20" font-weight="700" fill="#333">5</text>
+<text x="768" y="297" font-size="12" text-anchor="end" fill="#911eb4" font-weight="700">D5</text>
+<circle cx="698" cy="344" r="5" fill="#911eb4"/>
+<circle cx="752" cy="344" r="5" fill="#222"/>
+<rect x="800" y="270" width="96" height="96" rx="10" fill="#f4f4f4" stroke="#999"/>
+<text x="834" y="298" font-size="20" font-weight="700" fill="#333">6</text>
+<text x="888" y="297" font-size="12" text-anchor="end" fill="#2a9d8f" font-weight="700">D6</text>
+<circle cx="818" cy="344" r="5" fill="#2a9d8f"/>
+<circle cx="872" cy="344" r="5" fill="#222"/>
+<rect x="560" y="390" width="96" height="96" rx="10" fill="#f4f4f4" stroke="#999"/>
+<text x="594" y="418" font-size="20" font-weight="700" fill="#333">1</text>
+<text x="648" y="417" font-size="12" text-anchor="end" fill="#e6194b" font-weight="700">D7</text>
+<circle cx="578" cy="464" r="5" fill="#e6194b"/>
+<circle cx="632" cy="464" r="5" fill="#222"/>
+<rect x="680" y="390" width="96" height="96" rx="10" fill="#f4f4f4" stroke="#999"/>
+<text x="714" y="418" font-size="20" font-weight="700" fill="#333">2</text>
+<text x="768" y="417" font-size="12" text-anchor="end" fill="#3cb44b" font-weight="700">D8</text>
+<circle cx="698" cy="464" r="5" fill="#3cb44b"/>
+<circle cx="752" cy="464" r="5" fill="#222"/>
+<rect x="800" y="390" width="96" height="96" rx="10" fill="#f4f4f4" stroke="#999"/>
+<text x="834" y="418" font-size="20" font-weight="700" fill="#333">3</text>
+<text x="888" y="417" font-size="12" text-anchor="end" fill="#4363d8" font-weight="700">D9</text>
+<circle cx="818" cy="464" r="5" fill="#4363d8"/>
+<circle cx="872" cy="464" r="5" fill="#222"/>
+<line x1="550" y1="540" x2="900" y2="540" stroke="#222" stroke-width="4"/>
+<text x="900" y="562" font-size="13" text-anchor="end" fill="#222">Ortak GND</text>
+<path d="M632 224 V540" stroke="#222" stroke-width="1.6" fill="none" opacity="0.7"/>
+<path d="M752 224 V540" stroke="#222" stroke-width="1.6" fill="none" opacity="0.7"/>
+<path d="M872 224 V540" stroke="#222" stroke-width="1.6" fill="none" opacity="0.7"/>
+<path d="M632 344 V540" stroke="#222" stroke-width="1.6" fill="none" opacity="0.7"/>
+<path d="M752 344 V540" stroke="#222" stroke-width="1.6" fill="none" opacity="0.7"/>
+<path d="M872 344 V540" stroke="#222" stroke-width="1.6" fill="none" opacity="0.7"/>
+<path d="M632 464 V540" stroke="#222" stroke-width="1.6" fill="none" opacity="0.7"/>
+<path d="M752 464 V540" stroke="#222" stroke-width="1.6" fill="none" opacity="0.7"/>
+<path d="M872 464 V540" stroke="#222" stroke-width="1.6" fill="none" opacity="0.7"/>
+<path d="M550 540 H280 V468.0 H226" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M226 440.0 H300 V137 H698 V224" stroke="#f032e6" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+<path d="M226 412.0 H322 V132 H818 V224" stroke="#8b5a2b" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+<path d="M226 384.0 H344 V262 H578 V344" stroke="#f58231" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+<path d="M226 356.0 H366 V257 H698 V344" stroke="#911eb4" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+<path d="M226 328.0 H388 V252 H818 V344" stroke="#2a9d8f" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+<path d="M226 300.0 H410 V382 H578 V464" stroke="#e6194b" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+<path d="M226 272.0 H432 V377 H698 V464" stroke="#3cb44b" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+<path d="M226 244.0 H454 V372 H818 V464" stroke="#4363d8" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+<path d="M226 216.0 H476 V142 H578 V224" stroke="#d4a017" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+<text x="30" y="660" font-size="12" fill="#777">Klonlarda pin sırası farklı olabilir: kartın üstünde yazan D2…D10 etiketlerine göre bağla. Tuşlar üstten bakışa göre (numerik klavye düzeni).</text>
+<text x="30" y="680" font-size="12" fill="#777">Tuş → pin: 1-D7 2-D8 3-D9 4-D4 5-D5 6-D6 7-D10 8-D2 9-D3</text>
+</svg>
